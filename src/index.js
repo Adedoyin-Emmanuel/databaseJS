@@ -32,6 +32,10 @@ export default class DatabaseJs
 			}
 		}
 
+		this.delete = (key) =>{
+			this.update(key, " ");
+		}
+
 		this.destroy =  () =>{
 			localStorage.clear();
 		}
