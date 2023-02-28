@@ -10,9 +10,12 @@
 `const db = new Database();`
 
 ### Methods and Properties
-<script>
-const db = new Database();
-</script>
+
+```Javascript
+import db from "./db";
+
+
+```
 
 #### Create Method (Creates a new database field)
 
