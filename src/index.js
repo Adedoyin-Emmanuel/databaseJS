@@ -6,7 +6,7 @@
  * */
 
 
-class DatabaseJs
+export default class DatabaseJs
 {
 	constructor(){
 		this.create = (key, value) =>{
